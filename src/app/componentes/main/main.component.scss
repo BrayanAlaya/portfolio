@@ -1,0 +1,92 @@
+.portada {
+
+    max-width: 55rem;
+    min-height: 10rem;
+    border-radius: 15px;
+
+    background-color: rgba(rgb(52, 0, 66), 0.1);
+    padding: 50px 40px;
+
+    margin-bottom: 10rem;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+
+    @media (min-width: 920px) {
+        flex-direction: row;
+    }
+
+    &--bg {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        height: 100%;
+    }
+}
+
+.buttonSvg{
+    width: 13px;
+    height: 13px;
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    justify-content: center;
+
+    @media (min-width: 920px) {
+        gap: 20px;
+    }
+
+}
+
+.image {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    margin: auto;
+}
+
+.button{
+    padding: 10px;
+    font-size: 1rem;
+    background: transparent;
+    margin-top: 6px;
+    color: white;
+    cursor: pointer;
+    border:1px solid white;
+    border-radius: 7px;
+}
+
+.text {
+    margin: 0;
+    width: 100%;
+    font-size: 23px;
+    font-weight: 400;
+    color: white;
+
+    @media (min-width: 920px) {
+        text-align: right;
+    }
+
+
+    &--gradiant {
+        font-size: 25px;
+        font-weight: bold;
+        background-image: linear-gradient(120deg, #89f7fe 0%, #66a6ff 100%);
+        background-clip: text;
+        -webkit-text-fill-color: transparent;
+
+    }
+
+    &--bold {
+        font-weight: bold;
+    }
+    &--slogan{
+        display: flex;
+        align-items: center;
+        font-size: 18px;
+    }
+}

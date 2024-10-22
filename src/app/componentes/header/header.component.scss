@@ -1,0 +1,34 @@
+@import url('https://fonts.googleapis.com/css2?family=Micro+5&display=swap');
+
+
+
+.header{
+    width: 100%;
+    padding: 0 5%;
+    height: 65px;
+    background-color: rgba(black , 0.6);
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+    align-items: center;
+}
+.iconslist{
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+}
+.icon{
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+}
+
+
+
+.title {
+    font-family: "Micro 5", sans-serif;
+    font-weight: 400;
+    color: white;
+    font-style: normal;
+    opacity: 1;
+}
